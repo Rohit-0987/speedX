@@ -9,6 +9,7 @@ const App = () => {
     <div >
       <h1 className='my-16 text-center text-2xl text-white font-bold'>SpeedX - Website Performance Analyzer</h1>
       <InputForm setMetrics={setMetrics} />
+      <PerformanceMetrics metrics={metrics} />
     </div>
   );
 };
